@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Deshi Pay</string>
+    <string name="service_notification_title">Deshi Pay Service Active</string>
+    <string name="service_notification_desc">Monitoring payment SMS and syncing in background</string>
+    <string name="channel_name">Deshi Pay Gateway Service</string>
+    <string name="channel_desc">Background synchronization of payment transactions</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#0F172A</color>
+    <color name="primary_variant">#020617</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="ic_launcher_background">#0F172A</color>
+    <color name="secondary">#10B981</color>
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_border">#E2E8F0</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+
+    <!-- Provider Colors -->
+    <color name="bkash">#E2136E</color>
+    <color name="bkash_bg">#FDF2F7</color>
+    <color name="nagad">#F7931E</color>
+    <color name="nagad_bg">#FFF8F0</color>
+    <color name="rocket">#8C3494</color>
+    <color name="rocket_bg">#FBF4FC</color>
+    <color name="upay">#009FE3</color>
+    <color name="upay_bg">#F0F9FF</color>
+
+    <!-- Status Colors -->
+    <color name="status_synced">#10B981</color>
+    <color name="status_synced_bg">#ECFDF5</color>
+    <color name="status_pending">#F59E0B</color>
+    <color name="status_pending_bg">#FFFBEB</color>
+    <color name="status_failed">#EF4444</color>
+    <color name="status_failed_bg">#FEF2F2</color>
+</resources>

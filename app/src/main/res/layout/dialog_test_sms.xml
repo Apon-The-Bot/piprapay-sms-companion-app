@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Simulate Payment SMS"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Test offline parsing &amp; online sync without spending money"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp" />
+
+    <!-- Provider Selection -->
+    <RadioGroup
+        android:id="@+id/rgProvider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:checkedButton="@+id/rbBkash"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbBkash"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="bKash"
+            android:textColor="@color/bkash"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rbNagad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nagad"
+            android:textColor="@color/nagad"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rbRocket"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Rocket"
+            android:textColor="@color/rocket"
+            android:textSize="13sp" />
+    </RadioGroup>
+
+    <!-- Amount -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Amount (Tk)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTestAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="500.00"
+            android:textSize="13sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Sender Phone -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Sender Phone Number">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTestSender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:text="01712345678"
+            android:textSize="13sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- TrxID -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:hint="Transaction ID (TrxID)">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etTestTrxId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:inputType="textCapCharacters"
+            android:textSize="13sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>
