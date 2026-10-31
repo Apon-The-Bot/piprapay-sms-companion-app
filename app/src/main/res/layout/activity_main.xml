@@ -109,7 +109,7 @@
                 android:ellipsize="middle"
                 android:fontFamily="monospace"
                 android:maxLines="1"
-                android:text="https://payment.deshicourse.com"
+                android:text="https://api.yourgateway.com"
                 android:textColor="@color/text_secondary"
                 android:textSize="11sp" />
 

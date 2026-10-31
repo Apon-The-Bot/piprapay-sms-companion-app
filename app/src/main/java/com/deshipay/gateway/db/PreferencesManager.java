@@ -13,8 +13,8 @@ public class PreferencesManager {
     private static final String KEY_LAST_SYNC_TIME = "last_sync_time";
     private static final String KEY_LAST_SYNC_STATUS = "last_sync_status";
 
-    public static final String DEFAULT_SERVER_URL = "https://payment.deshicourse.com";
-    public static final String DEFAULT_DEVICE_TOKEN = "7348657678";
+    public static final String DEFAULT_SERVER_URL = "https://api.yourgateway.com";
+    public static final String DEFAULT_DEVICE_TOKEN = "";
 
     private final SharedPreferences prefs;
 

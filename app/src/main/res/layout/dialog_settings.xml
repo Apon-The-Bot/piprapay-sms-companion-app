@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:inputType="textUri"
-            android:text="https://payment.deshicourse.com"
+            android:hint="https://api.yourgateway.com"
             android:textSize="13sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
