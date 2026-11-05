@@ -26,7 +26,7 @@ flowchart TD
         G -->|Spam / OTP / Outgoing / Promo| H["Drop & Discard"]
         G -->|Verified Payment| I["Offline SQLite Buffer\nStatus: PENDING"]
         I --> J["Network & Battery-Aware\nSync Daemon (SyncManager.java)"]
-    the end
+    end
 
     J -->|HTTPS POST + Bearer Auth| K["Merchant Webhook / Payment Gateway\n(PipraPay, Laravel, Node.js, n8n)"]
     K --> L{"Gateway Response\nHTTP 200 OK?"}
